@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asad Fitness</title>
+    <link href='https://fonts.googleapis.com/css?family=Baloo Bhai' rel='stylesheet'>
+    <style>
+        body {
+            box-sizing: border-box;
+            background-image: url('https://frontpageghana.com/wp-content/uploads/2020/09/fitness3.jpg');
+            color: white;
+        }
+
+        .left {
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            left: 10px;
+            top: 22px;
+        }
+
+        .mid {
+            /* border: 2px solid green; */
+            width: 650px;
+            display: block;
+            margin: 20px auto;
+        }
+
+        .right {
+            position: absolute;
+            right: 10px;
+            top: 22px;
+            display: inline-block;
+            /* border: 2px solid blue; */
+        }
+
+        .navbar li {
+            list-style: none;
+            display: inline-block;
+            margin: 3px 30px;
+            font-size: 25px;
+
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            color: white;
+            font-family: 'Baloo Bhai';
+
+        }
+
+        .navbar li a:hover,
+        .navbar li a:active {
+            text-decoration: underline;
+            color: grey;
+        }
+
+        img {
+            width: 90px;
+            border-radius: 56px;
+            /* filter: invert(100%); */
+        }
+
+        .fitness {
+            margin: 0px;
+            font-size: 20px;
+            color:black;
+        }
+
+        .btn {
+            margin: 5px 10px;
+            padding: 5px 9px;
+            border: 2px solid black;
+            border-radius: 8px;
+            /* background-color: rgba(68, 62, 62, 0.418); */
+            color:black;
+            cursor: pointer;
+            text-align: center;
+            font-weight: 10px;
+            padding-right: 40px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        button {
+            font-weight: bold;
+            
+
+        }
+
+        button:hover {
+            color: white;
+            background-color: rgba(109, 103, 103, 0.397);
+        }
+
+        .container {
+            border: 2px solid white;
+            width: 432px;
+            height: 404px;
+            margin: 98px 11px;
+            padding: 21px 15px;
+            border-radius: 23px;
+        }
+
+        .form-group input {
+            padding: 8px 55px;
+            margin: 9px 95px;
+            border-radius: 15px;
+            text-align: center;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        }
+
+        .btn1 {
+            margin: 5px 96px;
+            padding: 8px 50px;
+            width: 265px;
+            border: 2px solid black;
+            border-radius: 22px;
+           cursor: pointer;
+
+        }
+        .btn1:hover{
+            color: white;
+            background-color: rgba(109, 103, 103, 0.397);
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="./images/images.png" alt="gym logo">
+            <p class="fitness">fitness club</p>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li> <a href="./public/loginpage.html">Home</a> </li>
+                <li> <a href="./public/about.html">About us</a> </li>
+                <li> <a href="./public/navigationMenu.html">Diet</a> </li>
+                <li> <a href="./public/contact.html">Contact us</a> </li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us</button>
+
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>join the best gym of vehari city</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your phone number">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email address">
+            </div>
+            <button class="btn1">Submit Now</button>
+        </form>
+    </div>
+</body>
+
+</html>

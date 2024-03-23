@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <style> 
+        body
+        {
+            background-image: url(https://cdn.wallpapersafari.com/96/42/sM30tC.jpg);
+            height: 3333px;
+        }
+        header{
+           
+            margin: 3px auto;
+        }
+        .navbar {
+            background-color: black;
+            border-radius: 30px;
+            position: sticky  ;
+            
+        }
+
+        .navbar ul {
+            overflow: auto;
+           
+            /* overflos is used  to control background  color overflow in items */
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            /* this one is used to remove the list elements */
+            margin: 12px 37px;
+        }
+
+        .navbar li a {
+            padding: 3px 3px;
+            text-decoration: none;
+            /* it is used to remove line under the anchor tag */
+            color: white;
+        }
+
+        .navbar li a:hover {
+            color: brown;
+
+        }
+
+        #search {
+            float: right;
+            padding: 11px 42px;
+        }
+        input{
+            border-radius: 12px;
+            padding: 3px 7px;
+        }
+        .contact
+        {
+            float: left;
+            border: 2px solid rgba(30, 30, 80, 0.623);
+            margin: -10px 7px;
+            border-radius: 30px;
+            background-color: black;
+            position: fixed;
+            margin-left: 88%;
+           padding: 4px 13px;
+           text-align: center;
+           margin-top: 512px;
+        }
+        
+        .id1{
+color: white;
+text-decoration: none;
+
+        }
+        .id1:hover
+        {
+            color: brown;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li> <a href="./loginpage.html">Home</a></li>
+                <li> <a href="./about.html">About</a></li>
+                <li> <a href="./page2.html">Services</a></li>
+                <li> <a href="./contact.html">Contact us</a></li>
+                <div id="search">
+                    <input type="text" name="mytext" id="text" placeholder="search your item">
+                </div>
+            </ul>
+    
+        </nav>
+    </header>
+     
+    <div class="contact">
+        <footer>
+            <a class="id1" href="../contact.html">contact us</a>
+        </footer>
+    </div>
+</body>
+
+</html>

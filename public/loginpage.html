@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color:rgba(159, 224, 159, 0.623);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            height: 2222px;
+        }
+
+        h1,
+        h2 {
+            color: white;
+            text-align: center;
+        }
+
+        #container {
+            border: 3px solid black;
+            width: 600px;
+            height: 400px;
+            background-image: url(../wp2939993.webp);
+            padding: -8px;
+            margin: auto;
+            margin-top: 90px;
+            border-radius: 5px;
+        }
+    .containers{
+        padding: 7px 50px;
+        margin: 8px 19px;
+        border-radius: 30px;
+        background-color: aqua;
+        text-align: left;
+        color: white;
+
+    }
+    #email{
+        margin-left: -13px;
+    }
+
+        label {
+            color: white;
+        }
+
+        #private {
+            border: 3px solid black;
+            padding: 20px;
+            width: 400px;
+            margin: auto;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            
+        }
+
+        a {
+            text-decoration: none;
+            margin: 20px;
+            color: white;
+        }
+
+        #margin1 {
+            margin-left: 110px;
+            
+        }
+        button
+        {
+            width: 170px;
+            background-color: rgba(0, 255, 255, 0.534);
+           margin: 47px 82px;
+           padding: 5px 3px;
+            border: 3px solid rgba(0, 255, 255, 0.753);
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+            font-size: bold;
+            color: white;
+            border-radius: 30px;
+            cursor: pointer ;
+           
+        }
+        #emailid
+        {
+            margin-left: 30px;
+            font-size: bold;
+            
+
+        }
+        button:hover{
+            color: black;
+        }
+        .contact
+        {
+            float: right;
+            border: 2px solid aqua;
+            margin: -10px 7px;
+            border-radius: 10px;
+            background-color: black;
+            position: fixed;
+        margin-left: 252px;
+        padding: 3px 3px;
+        text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+
+        <h1>User Login</h1>
+
+        <div id="private">
+            <form action="backend.php">
+
+                <input type="text" class="containers" id="name" placeholder="UserName">
+
+                <div id="emailid">
+                    <input type="email" class="containers" id="email" placeholder="Email">
+
+                </div>
+                <a href="./forgetpassword.html">forget password ?</a>
+                <a id="margin1" href="./signup.html">sign up</a>
+                <div>
+
+                    <button>sign in</button>
+                </div>
+            </form>
+            <div class="contact">
+                <a class="id1" href="../contact.html">contact us</a>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
